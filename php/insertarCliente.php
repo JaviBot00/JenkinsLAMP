@@ -12,7 +12,7 @@ require 'cliente.php';
 $servername = "172.18.0.2";
 $username = "php";
 $password = "1234";
-$database = "pruebas";
+$database = "prueba";
 
 $conn = new mysqli($servername, $username, $password, $database);
 // Check connection
