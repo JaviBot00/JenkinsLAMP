@@ -8,7 +8,8 @@ echo "2";
 require 'vendor/autoload.php';
 echo "3";
 require 'cliente.php';
-$servername = "localhost";
+
+$servername = "172.18.0.2";
 $username = "php";
 $password = "1234";
 $database = "pruebas";
