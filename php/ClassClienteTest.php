@@ -25,7 +25,7 @@ class ClienteTest extends \PHPUnit\Framework\TestCase
         $servername = "172.18.0.2";
         $username = "php";
         $password = "1234";
-        $dbname = "pruebas";
+        $dbname = "prueba";
 
         // Establecer conexión con la base de datos
         $conn = new mysqli($servername, $username, $password, $dbname);
