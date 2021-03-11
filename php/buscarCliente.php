@@ -6,7 +6,7 @@ require 'cliente.php';
 $servername = "172.18.0.2";
 $username = "php";
 $password = "1234";
-$database = "pruebas";
+$database = "prueba";
 
 $op=$_GET["tipo"];
 $busqueda=$_GET["busqueda"];
