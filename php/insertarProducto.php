@@ -9,7 +9,7 @@ require 'productos.php';
 $servername = "172.18.0.2";
 $username = "php";
 $password = "1234";
-$database = "pruebas";
+$database = "prueba";
 
 // Establecer conexión con la base de datos y verificar la conexión
 $conn = new mysqli($servername, $username, $password, $database);
