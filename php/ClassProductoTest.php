@@ -19,7 +19,7 @@ class productoTest extends \PHPUnit\Framework\TestCase {
     public function testinsertarProducto() 
     {
 
-        $servername = "localhost";
+        $servername = "172.18.0.2";
         $username = "php";
         $password = "1234";
         $dbname = "pruebas";
