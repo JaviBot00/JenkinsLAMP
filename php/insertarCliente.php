@@ -9,7 +9,7 @@ require 'vendor/autoload.php';
 echo "3";
 require 'cliente.php';
 
-$servername = "172.18.0.2";
+$servername = "127.0.0.1:3366";
 $username = "php";
 $password = "1234";
 $database = "prueba";
