@@ -22,7 +22,7 @@ class ClienteTest extends \PHPUnit\Framework\TestCase
     public function testdarAlta()
     {
 
-        $servername = "172.18.0.2";
+        $servername = "127.0.0.1:3366";
         $username = "php";
         $password = "1234";
         $dbname = "prueba";
